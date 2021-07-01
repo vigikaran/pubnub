@@ -3,6 +3,8 @@
 namespace NotificationChannels\Pubnub;
 
 use PubNub\PubNub;
+use PubNub\PNConfiguration;
+
 use Illuminate\Support\ServiceProvider;
 
 class PubnubServiceProvider extends ServiceProvider
